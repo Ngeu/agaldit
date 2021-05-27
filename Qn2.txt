@@ -1,0 +1,12 @@
+#! /bin/bash
+echo "Enter The base number:"
+read num
+echo "Enter The Power number:"
+read Pow
+if [[ num >0 ]]
+then
+exp=$(( num ** Pow ))
+echo "Resulet=$exp"
+else
+echo "Please Enter a positive number:"
+fi
