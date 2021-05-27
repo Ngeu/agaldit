@@ -1,0 +1,12 @@
+#! /bin/bash
+sec=0
+hr=0
+min=0
+sec1=0
+echo "Enter the Seconds:"
+read sec
+hr=$(( sec / 3600 ))
+sec=$(( sec % 3600 ))
+min=$(( sec / 60 ))
+sec1=$(( sec % 60 ))
+echo "Equivalient time= $hr : $min : $sec1"
